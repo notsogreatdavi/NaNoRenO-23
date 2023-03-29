@@ -3,9 +3,12 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define e = Character("eileen")
+define s = Character("Samantha")
+define p = Character("Pedro")
+define l = Character("Laplace")
 
-
+image fundo = "images/quarto.jpg"
 # The game starts here.
 
 label start:
@@ -14,7 +17,8 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene fundo:
+        zoom 3.5
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
