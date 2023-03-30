@@ -7,8 +7,10 @@ define e = Character("eileen")
 define s = Character("Samantha")
 define p = Character("Pedro")
 define l = Character("Laplace")
+define pai = Character ("Pai")
 
 image fundo = "images/quarto.jpg"
+image pai = "images/pai-removebg-preview.png"
 # The game starts here.
 
 label start:
@@ -24,13 +26,14 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show pai:
+        zoom 1.5
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    pai "Eu sou o seu pai"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    pai "Once you add a story, pictures, and music, you can release it to the world!"
 
     # This ends the game.
 
