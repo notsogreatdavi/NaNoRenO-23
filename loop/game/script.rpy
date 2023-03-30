@@ -10,7 +10,7 @@ define l = Character("Laplace")
 define pai = Character ("Pai")
 
 image fundo = "images/quarto.jpg"
-image pai = "images/pai-removebg-preview.png"
+image pai = "images/pai.png"
 # The game starts here.
 
 label start:
